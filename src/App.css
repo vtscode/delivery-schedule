@@ -1,0 +1,73 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+} */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans:300,400');
+
+.container {
+    text-align: center;
+}
+
+.heading {
+    font-size: 3em;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+
+.description {
+    font-family: 'Open Sans', serif;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.preferences {
+    background: #d6e6f1;
+    padding: 0.5em;
+    font-family: 'Open Sans', serif;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+input[type="number"] {
+    margin-right: 5px;
+}
+
+.schedule {
+    display: block;
+}
+
+ul {
+    list-style: none;
+    margin: 1em 0;
+    padding: 0;
+    font-family: 'Open Sans', serif;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+li {
+    line-height: 2.2em;
+    border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+    border: 0;
+}
